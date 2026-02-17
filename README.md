@@ -42,6 +42,7 @@ src/fruit_blocks_vr/
   varwin_adapter.py   # Контроллер интеграции с Varwin API
 scripts/
   desktop_simulation.py
+  varwin_runtime_template.py
 tests/
   test_core.py
   test_varwin_adapter.py
@@ -76,6 +77,7 @@ python -m unittest discover -s tests -v
 
 `src/fruit_blocks_vr/varwin_adapter.py` ожидает слой-обертку `VarwinBridge`.
 Этот слой нужно реализовать в вашем Varwin-проекте (вызовы конкретных API сцены).
+Быстрый старт для интеграции — файл `scripts/varwin_runtime_template.py`.
 
 Минимальный контракт:
 - `set_block_dynamic(object_id)`
