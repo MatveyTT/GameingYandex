@@ -1,0 +1,68 @@
+{
+  "game": {
+    "title": "Фруктовые Блоки VR",
+    "version": "1.0.0",
+    "default_mode": "desktop",
+    "supported_modes": ["desktop", "vr"]
+  },
+  "gameplay": {
+    "block_size": 0.3,
+    "block_spacing": 0.05,
+    "match_distance": 0.45,
+    "fall_gravity_multiplier": 2.0,
+    "match_delay_seconds": 0.3,
+    "chain_bonus_multiplier": 2,
+    "collection_zone_height_limit": 2.0,
+    "block_hover_scale": 1.08,
+    "block_hover_outline_width": 0.02,
+    "activation_flash_duration": 0.15,
+    "match_check_interval": 0.2
+  },
+  "scoring": {
+    "match_points": 100,
+    "chain_multiplier_base": 2,
+    "speed_bonus_threshold_seconds": 3.0,
+    "speed_bonus_points": 50,
+    "level_complete_time_multiplier": 10
+  },
+  "physics": {
+    "gravity": -9.81,
+    "block_mass": 1.0,
+    "block_drag": 0.1,
+    "block_angular_drag": 0.5,
+    "block_bounciness": 0.2,
+    "block_friction": 0.6
+  },
+  "camera": {
+    "desktop_height": 1.6,
+    "desktop_distance": 2.0,
+    "desktop_fov": 70,
+    "vr_player_offset": [0, 0, -1.5],
+    "ray_max_distance": 10.0
+  },
+  "ui": {
+    "score_position": "top_center",
+    "level_position": "top_left",
+    "timer_position": "top_right",
+    "onboarding_duration_seconds": 10,
+    "fail_screen_delay_seconds": 1.0,
+    "win_screen_delay_seconds": 0.5
+  },
+  "audio": {
+    "music_volume": 0.3,
+    "sfx_volume": 0.7,
+    "hover_volume": 0.2,
+    "activate_volume": 0.6,
+    "match_volume": 0.8,
+    "fail_volume": 0.9,
+    "win_volume": 1.0
+  },
+  "effects": {
+    "match_particle_count": 30,
+    "match_particle_lifetime": 1.5,
+    "match_particle_speed": 3.0,
+    "activation_flash_intensity": 2.0,
+    "chain_screen_flash_alpha": 0.15,
+    "fail_screen_red_alpha": 0.4
+  }
+}

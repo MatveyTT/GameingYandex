@@ -1,0 +1,70 @@
+{
+  "fruit_types": [
+    {
+      "id": 0,
+      "name": "apple",
+      "display_name": "Яблоко",
+      "color": [0.906, 0.298, 0.235, 1.0],
+      "hex_color": "#E74C3C",
+      "particle_color": [1.0, 0.3, 0.3, 1.0],
+      "model": "fruit_block_apple",
+      "texture": "tex_apple",
+      "icon": "icon_apple"
+    },
+    {
+      "id": 1,
+      "name": "orange",
+      "display_name": "Апельсин",
+      "color": [0.902, 0.494, 0.133, 1.0],
+      "hex_color": "#E67E22",
+      "particle_color": [1.0, 0.6, 0.2, 1.0],
+      "model": "fruit_block_orange",
+      "texture": "tex_orange",
+      "icon": "icon_orange"
+    },
+    {
+      "id": 2,
+      "name": "banana",
+      "display_name": "Банан",
+      "color": [0.945, 0.769, 0.059, 1.0],
+      "hex_color": "#F1C40F",
+      "particle_color": [1.0, 0.9, 0.3, 1.0],
+      "model": "fruit_block_banana",
+      "texture": "tex_banana",
+      "icon": "icon_banana"
+    },
+    {
+      "id": 3,
+      "name": "grape",
+      "display_name": "Виноград",
+      "color": [0.608, 0.349, 0.714, 1.0],
+      "hex_color": "#9B59B6",
+      "particle_color": [0.7, 0.4, 0.9, 1.0],
+      "model": "fruit_block_grape",
+      "texture": "tex_grape",
+      "icon": "icon_grape"
+    },
+    {
+      "id": 4,
+      "name": "strawberry",
+      "display_name": "Клубника",
+      "color": [0.914, 0.118, 0.388, 1.0],
+      "hex_color": "#E91E63",
+      "particle_color": [1.0, 0.4, 0.6, 1.0],
+      "model": "fruit_block_strawberry",
+      "texture": "tex_strawberry",
+      "icon": "icon_strawberry"
+    },
+    {
+      "id": 5,
+      "name": "watermelon",
+      "display_name": "Арбуз",
+      "color": [0.153, 0.682, 0.376, 1.0],
+      "hex_color": "#27AE60",
+      "particle_color": [0.3, 0.9, 0.5, 1.0],
+      "model": "fruit_block_watermelon",
+      "texture": "tex_watermelon",
+      "icon": "icon_watermelon"
+    }
+  ]
+}
